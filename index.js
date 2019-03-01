@@ -35,6 +35,7 @@ function viewCart() {
       
     }
     while (i < cart.lenth - 1)
+  }
 }
 
 function total() {
