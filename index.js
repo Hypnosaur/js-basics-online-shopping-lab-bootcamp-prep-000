@@ -31,7 +31,7 @@ function viewCart() {
     return `Your shopping cart is empty.`
   } 
   if (cart.length === 1) {
-    return `Your shopping cart is empty.`
+    return `In your cart, you have 
   } 
   else {
     var statement = `In your cart, you have `;
