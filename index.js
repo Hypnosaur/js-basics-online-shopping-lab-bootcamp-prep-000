@@ -11,10 +11,13 @@ function setCart(c) {
 
 function addToCart(item) {
  // write yo
- object = {}
- i = Math.random() * Math.floor(max)
-   object.itemName = item;
-   object.itemPrice = 
+ var object = {};
+ let i = Math.random() * Math.floor(100)
+
+  object.itemName = item;
+  object.itemPrice = i;
+  
+  cart.push(object);
  
  
 
