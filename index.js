@@ -70,8 +70,7 @@ function placeOrder(cardNumber) {
   if (cardNumber <0){
     return "Sorry, we don't have a credit card on file for you..."
   } else {
-    let total = function total()
-    cart.length = 0;
+    
     return ` Your total cost is $${total}, which will be charged to the card ${cardNumber}.`
   }
 }
