@@ -56,13 +56,16 @@ function total() {
 
 function removeFromCart(item) {
   // write your code here
-  for( let i = 0; i < cart.length; i++){
+  var i = 0;
+  do {
     if(cart[i].itemName === item ){
       cart.splice(i, 1);
       return cart;
-    } 
+    } else {
+      i++
+    }
   }
-  if (cart.includes())
+  while( i < cart.length);
 }
 
 function placeOrder(cardNumber) {
