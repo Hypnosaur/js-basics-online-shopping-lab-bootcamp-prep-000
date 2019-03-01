@@ -18,6 +18,7 @@ function addToCart(item) {
   object.itemPrice = i;
   
   cart.push(object);
+}
  
  
 
