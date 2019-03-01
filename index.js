@@ -12,10 +12,10 @@ function setCart(c) {
 function addToCart(item) {
  // write yo
  object = {}
-   object.itemName = item}`,
+   object.itemName = item;
+   object.itemPrice = 
  
  
-}
 
 function viewCart() {
   // write your code here
