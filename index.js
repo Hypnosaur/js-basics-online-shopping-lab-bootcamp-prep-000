@@ -30,7 +30,7 @@ function viewCart() {
   if (cart.length === 0) {
     return `Your shopping cart is empty.`
   } else {
-    statement = `In your cart, you have `;
+    let statement = `In your cart, you have `;
     do {
       
     }
