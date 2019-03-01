@@ -36,8 +36,8 @@ function viewCart() {
   else {
     var statement = `In your cart, you have `;
     do {
-      i++;
       statement = statement + `${cart[i].itemName} at $${cart[i].itemPrice}, `
+      i++
     }
     while (i < cart.length - 2)
     statement = statement + `${cart[cart.length-1].itemName} at $${cart[cart.length-1].itemPrice}.`
