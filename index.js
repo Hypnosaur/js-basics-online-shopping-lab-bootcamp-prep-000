@@ -71,6 +71,6 @@ function placeOrder(cardNumber) {
     return "Sorry, we don't have a credit card on file for you..."
   } else {
     cart.length = 0;
-    
+    total = function total()
   }
 }
