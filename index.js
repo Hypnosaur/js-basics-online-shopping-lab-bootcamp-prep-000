@@ -12,14 +12,14 @@ function setCart(c) {
 function addToCart(item) {
 
  var object = {};
- let i = Math.random() * Math.floor(100)
+ let i = Math.random() * Math.floor(100);
  
  object.itemName = item;
  object.itemPrice = i;
  
  cart.push(object);
  
- return `${item} has been added to your cart.`
+ return `${item} has been added to your cart.`;
 }
  
  
@@ -28,30 +28,30 @@ function viewCart() {
   // write your code here
   let i = 0;
   if (cart.length === 0) {
-    return `Your shopping cart is empty.`
+    return `Your shopping cart is empty.`;
   } 
   if (cart.length === 1) {
-    return `In your cart, you have ${cart[cart.length-1].itemName} at $${cart[cart.length-1].itemPrice}.`
+    return `In your cart, you have ${cart[cart.length-1].itemName} at $${cart[cart.length-1].itemPrice}.`;
   } 
   else {
     var statement = `In your cart, you have `;
     do {
-      statement = statement + `${cart[i].itemName} at $${cart[i].itemPrice}, `
-      i++
+      statement = statement + `${cart[i].itemName} at $${cart[i].itemPrice}, `;
+      i++;
     }
-    while (i < cart.length - 1)
-    statement = statement + `and ${cart[cart.length-1].itemName} at $${cart[cart.length-1].itemPrice}.`
-    return statement
+    while (i < cart.length - 1);
+    statement = statement + `and ${cart[cart.length-1].itemName} at $${cart[cart.length-1].itemPrice}.`;
+    return statement;
   }
 }
 
 function total() {
   // write your code here
-  let total = 0
+  let total = 0;
   for (let i = 0; i < cart.length; i++){
     total = total + cart[i].itemPrice;
   }
-  return total
+  return total;
 }
 
 function removeFromCart(item) {
