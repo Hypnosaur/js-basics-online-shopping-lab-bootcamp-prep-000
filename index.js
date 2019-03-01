@@ -10,21 +10,31 @@ function setCart(c) {
 }
 
 function addToCart(item) {
- // write yo
+
  var object = {};
  let i = Math.random() * Math.floor(100)
-
-  object.itemName = item;
-  object.itemPrice = i;
-  
-  cart.push(object);
-  return `${item} has been added to your cart.`
+ 
+ object.itemName = item;
+ object.itemPrice = i;
+ 
+ cart.push(object);
+ 
+ return `${item} has been added to your cart.`
 }
  
  
 
 function viewCart() {
   // write your code here
+  i = 0;
+  if (cart.length === 0) {
+    return `Your shopping cart is empty`
+  } else {
+    statement = `In your cart, you have `;
+    do {
+      
+    }
+    while (i < cart.lenth - 1)
 }
 
 function total() {
