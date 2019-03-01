@@ -34,7 +34,8 @@ function viewCart() {
     do {
       
     }
-    while (i < cart.lenth - 1)
+    while (i < cart.length - 1)
+    statement = statement + `$cart[cart.length-1] at $${
   }
 }
 
