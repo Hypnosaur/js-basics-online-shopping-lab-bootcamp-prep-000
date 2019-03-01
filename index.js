@@ -29,7 +29,9 @@ function viewCart() {
   let i = 1;
   if (cart.length === 0) {
     return `Your shopping cart is empty.`
-  } else {
+  } 
+  
+  else {
     var statement = `In your cart, you have `;
     do {
       i++;
