@@ -39,7 +39,7 @@ function viewCart() {
       statement = statement + `${cart[i].itemName} at $${cart[i].itemPrice}, `
       i++
     }
-    while (i < cart.length - 2)
+    while (i < cart.length - 1)
     statement = statement + `and ${cart[cart.length-1].itemName} at $${cart[cart.length-1].itemPrice}.`
     return statement
   }
