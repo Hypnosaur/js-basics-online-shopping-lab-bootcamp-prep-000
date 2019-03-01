@@ -35,7 +35,7 @@ function viewCart() {
       
     }
     while (i < cart.length - 1)
-    statement = statement + `$cart[cart.length-1] at $${
+    statement = statement + `${cart[cart.length-1].itemName} at $${
   }
 }
 
